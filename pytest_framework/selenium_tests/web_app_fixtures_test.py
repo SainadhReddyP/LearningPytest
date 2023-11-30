@@ -13,7 +13,7 @@ def init_driver():
     driver.maximize_window()
     driver.implicitly_wait(10)
     driver.delete_all_cookies()
-    driver.get("https://sdetportal.blogspot.com//")
+    driver.get("https://sdetportal.blogspot.com/")
     yield
     print("Closed the browser successfully.")
     driver.quit()
